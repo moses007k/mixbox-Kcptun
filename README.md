@@ -51,6 +51,13 @@
 
 以上，在Google cloud的SSR和Kcptun客户端均已配置完成。
 
+额外提一点，BBR并不影响kcptun，同时安装不冲突，但也不能叠加效果，安装方式如下，推荐使用BBR plus
+
+>wget --no-check-certificate -O tcp.sh https://github.com/cx9208/Linux-NetSpeed/raw/master/tcp.sh &
+& chmod +x tcp.sh && ./tcp.sh
+
+>./tcp.sh
+
 ### 三、小米路由器的配置安装
 #### 1.安装mixbox 
 
